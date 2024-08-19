@@ -1,0 +1,30 @@
+{
+  "Products": [
+    {
+      "product_id": 30,
+      "product_url": "iPhone 11 Pro",
+      "product_name": "iPhone 11 Pro",
+      "description_id": 29,
+      "product_brief_description": "Pro cameras. Pro display. Pro performance.",
+      "product_description": "",
+      "product_img": "http://localhost:5173/src/commonResource/images/home/iphone11-pro-bg.jpg",
+      "product_link": "Learn more",
+      "price_id": 26,
+      "starting_price": "",
+      "price_range": "From $24.95/mo. or $599 with tradeâ€‘in."
+    },
+    {
+      "product_id": 32,
+      "product_url": "iPhone 11",
+      "product_name": "iPhone 11",
+      "description_id": 31,
+      "product_brief_description": "Just the right amount of everything.",
+      "product_description": "",
+      "product_img": "http://localhost:5173/src/commonResource/images/home/iphone11-colored.jpg",
+      "product_link": "Learn more",
+      "price_id": 28,
+      "starting_price": "",
+      "price_range": "From $16.62/mo. or $399 with tradeâ€‘in."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+what is API/REST  API- Application programming interface
+********************************************************
+- interface is the keyword in here, an API is an interface between an Application and developers  who
+are trying to use the output of the Application
+
+- if you are an owener of an application, and you are willing to open up some of the data in your database
+to external developers, you dont want to provide them a direct access to the database. what you prefer to do is,
+create an interface that returns some pre=selected list of things as per the developers request
+
+- it would be the application owerns responsibility to write the interface code (api) that returns the requested data.
+depending on how the api is written, the writer need to provide instructions on how to make the requests. there is no standard way making API Requests.
+
+
+what is JSON?
+************
+JSON stands for javascript object notation
+- In the some categories as XML, JSON is also a format for storing and transfering data
+- the reason why JSON is preferred by most application as a way of sending data is it's simplicity to understand
+by the user of the data.
+JSON Format:
+************
+- JSON is very similar with how javascript structures objects
+- the reaso why json is preferred by most applications as a way of sending data is its simplicity to understand by the 
+user of the data
+
+How to create Youtube API key?
+*****************************
+API key is like a user name and password for your request. Most API providers require you to get an APIs just for the sake
+of avoiding scammers
+
+here is how you can get an API key to use Google APIs
+STEP 1:
+go Google console https://console.cloud.google.com/
+
+how to call some JSON data from Youtube
+***************************************
+-Documentation
+- https://developers.google.com/youtube/v3
+- the main link you use to communicate with google APIs
+https://www.googleapi.com/youtube/v3
+- this is how you construct your API request
+
+-
+Demo on how to use the JSON Data we obtained fromm youtube API in our react component
+*************************************************************************************
+
+
+React Routing
+*************
+Limitation of React without React Router
+****************************************
+muliple page vs single page app(SPA)
+-solutions
+  - React Router
+       - React Router is a liberary for routing in React application
+       - it allows you to define routes, which map to different commonets in your application
+-npmjs.com 
+-search for "react-router-dom" and install
+-offical website
+-https://reactrouter.com/en/main
+-install react-router-dom
+
+
+Main parts of React Router
+************************
+- BrowserRouter
+   - <Router> component wraps everything that are dependent on router
+Route
+-<Route> components define the relationship between a path and a component to be rendered when
+the path is matched
+
+- Route object have a path property, which speficies the path to match, and a elemenet property, which 
+speficies the component to render.
+
+
+-link
+  -<link> component is used to create links between different routes in your application.
+  - Replaces anchor tag in react-route-dom
+
+
+  3. 404 page and Nested routes
+
+  - Non existing routes
+  -shared layouts (NavBars and Footer)
+  -Outle
+    - outlet component render child routes within paranet route
+4. Iphone page(Products)
+- Fetch data from backed and display Products
+
+
+
